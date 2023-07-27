@@ -14,7 +14,7 @@
                 <div class="latest_left">
                     <?php if(have_rows('updates_left_repeater')) : while(have_rows('updates_left_repeater')) : the_row() ?>
                     <div class="latest_left_item">
-                        <img src="<?php echo get_sub_field('left_item_img') ?>" alt="">
+                        <img src="<?php echo get_sub_field('left_item_img')['url'] ?>" alt="">
                         <div class="latest_left_item_label">
                             <ul>
                             <?php if(have_rows('left_item_label_repeater')) : while(have_rows('left_item_label_repeater')) : the_row() ?>
@@ -73,7 +73,7 @@
                             <?php if(have_rows('category_repeater')) : while(have_rows('category_repeater')) : the_row() ?>
                             <tr>
                                 <td><?php echo get_sub_field('category_name') ?></td>
-                                <td><?php echo get_field('category_num') ?></td>
+                                <td><?php echo get_sub_field('category_num') ?></td>
                             </tr>
                             <?php
                                 endwhile;
@@ -109,7 +109,7 @@
                         <?php if(have_rows('recent_repeater')) : while(have_rows('recent_repeater')) : the_row() ?>
                             <div class="latest_right_recent_content">
                                 <div class="latest_right_recent_img">
-                                    <img src="<?php echo get_sub_field('recent_img') ?>" alt="">
+                                    <img src="<?php echo get_sub_field('recent_img')['url'] ?>" alt="">
                                 </div>
                                 <div class="latest_right_recent_text">
                                     <h3><?php echo get_sub_field('recent_header') ?></h3>

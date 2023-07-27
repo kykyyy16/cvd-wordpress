@@ -1,4 +1,4 @@
-    <section class="footer">
+<section class="footer">
         <div class="footer_wrapper">
             <div class="space">
                 <div class="footer_socmed">

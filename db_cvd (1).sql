@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 27, 2023 at 02:29 AM
+-- Generation Time: Jul 27, 2023 at 03:54 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -209,7 +209,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (102, 'user_count', '1', 'no'),
 (103, 'widget_block', 'a:6:{i:2;a:1:{s:7:\"content\";s:19:\"<!-- wp:search /-->\";}i:3;a:1:{s:7:\"content\";s:154:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Posts</h2><!-- /wp:heading --><!-- wp:latest-posts /--></div><!-- /wp:group -->\";}i:4;a:1:{s:7:\"content\";s:227:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Recent Comments</h2><!-- /wp:heading --><!-- wp:latest-comments {\"displayAvatar\":false,\"displayDate\":false,\"displayExcerpt\":false} /--></div><!-- /wp:group -->\";}i:5;a:1:{s:7:\"content\";s:146:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Archives</h2><!-- /wp:heading --><!-- wp:archives /--></div><!-- /wp:group -->\";}i:6;a:1:{s:7:\"content\";s:150:\"<!-- wp:group --><div class=\"wp-block-group\"><!-- wp:heading --><h2>Categories</h2><!-- /wp:heading --><!-- wp:categories /--></div><!-- /wp:group -->\";}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (104, 'sidebars_widgets', 'a:2:{s:19:\"wp_inactive_widgets\";a:5:{i:0;s:7:\"block-2\";i:1;s:7:\"block-3\";i:2;s:7:\"block-4\";i:3;s:7:\"block-5\";i:4;s:7:\"block-6\";}s:13:\"array_version\";i:3;}', 'yes'),
-(105, 'cron', 'a:8:{i:1690417827;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1690446626;a:1:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1690446627;a:4:{s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1690446641;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1690446642;a:2:{s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:21:\"wp_update_user_counts\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1690446645;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1690965026;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}', 'yes'),
+(105, 'cron', 'a:8:{i:1690425027;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1690446626;a:1:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1690446627;a:4:{s:18:\"wp_https_detection\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1690446641;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1690446642;a:2:{s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:21:\"wp_update_user_counts\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1690446645;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1690965026;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}', 'yes'),
 (106, 'widget_pages', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (107, 'widget_calendar', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
 (108, 'widget_archives', 'a:1:{s:12:\"_multiwidget\";i:1;}', 'yes'),
@@ -293,7 +293,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (12, 14, '_edit_last', '1'),
 (13, 14, '_edit_lock', '1690342020:1'),
 (14, 16, '_edit_last', '1'),
-(15, 16, '_edit_lock', '1690343433:1'),
+(15, 16, '_edit_lock', '1690421719:1'),
 (16, 9, '_edit_last', '1'),
 (17, 9, '_wp_page_template', 'about.php'),
 (18, 14, '_wp_page_template', 'services.php'),
@@ -2233,7 +2233,7 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (1949, 173, '_edit_last', '1'),
 (1950, 173, '_edit_lock', '1690342157:1'),
 (1951, 176, '_edit_last', '1'),
-(1952, 176, '_edit_lock', '1690345630:1'),
+(1952, 176, '_edit_lock', '1690420753:1'),
 (1953, 16, 'updates_title', 'Latest Trends'),
 (1954, 16, '_updates_title', 'field_64c0936788f03'),
 (1955, 16, 'updates_text', 'Lorem ipsum dolor sit amet consectetur adipisicing'),
@@ -2482,7 +2482,139 @@ INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUE
 (2197, 186, 'home_contact_p', 'Phasellus nulla metus varius laoreet.'),
 (2198, 186, '_home_contact_p', 'field_64bfae4f9d656'),
 (2199, 186, 'home_contact_btn', ''),
-(2200, 186, '_home_contact_btn', 'field_64bfae629d657');
+(2200, 186, '_home_contact_btn', 'field_64bfae629d657'),
+(2201, 187, '_edit_last', '1'),
+(2202, 187, '_edit_lock', '1690421323:1'),
+(2203, 16, 'category_title', 'CATEGORIES'),
+(2204, 16, '_category_title', 'field_64c1c79ff74a7'),
+(2205, 16, 'category_repeater_0_category_name', ' Web Design'),
+(2206, 16, '_category_repeater_0_category_name', 'field_64c1c7e1f74a9'),
+(2207, 16, 'category_repeater_0_category_num', '(2)'),
+(2208, 16, '_category_repeater_0_category_num', 'field_64c1c7fdf74aa'),
+(2209, 16, 'category_repeater_1_category_name', 'Web Development'),
+(2210, 16, '_category_repeater_1_category_name', 'field_64c1c7e1f74a9'),
+(2211, 16, 'category_repeater_1_category_num', '(5)'),
+(2212, 16, '_category_repeater_1_category_num', 'field_64c1c7fdf74aa'),
+(2213, 16, 'category_repeater_2_category_name', 'Wire Frame'),
+(2214, 16, '_category_repeater_2_category_name', 'field_64c1c7e1f74a9'),
+(2215, 16, 'category_repeater_2_category_num', '(1)'),
+(2216, 16, '_category_repeater_2_category_num', 'field_64c1c7fdf74aa'),
+(2217, 16, 'category_repeater_3_category_name', 'Vector & Logo'),
+(2218, 16, '_category_repeater_3_category_name', 'field_64c1c7e1f74a9'),
+(2219, 16, 'category_repeater_3_category_num', '(5)'),
+(2220, 16, '_category_repeater_3_category_num', 'field_64c1c7fdf74aa'),
+(2221, 16, 'category_repeater_4_category_name', 'Social Media'),
+(2222, 16, '_category_repeater_4_category_name', 'field_64c1c7e1f74a9'),
+(2223, 16, 'category_repeater_4_category_num', '(2)'),
+(2224, 16, '_category_repeater_4_category_num', 'field_64c1c7fdf74aa'),
+(2225, 16, 'category_repeater', '5'),
+(2226, 16, '_category_repeater', 'field_64c1c7c2f74a8'),
+(2227, 16, 'recent_title', 'RECENT POST'),
+(2228, 16, '_recent_title', 'field_64c1c811f74ab'),
+(2229, 16, 'recent_repeater_0_recent_img', '79'),
+(2230, 16, '_recent_repeater_0_recent_img', 'field_64c1c872f74ad'),
+(2231, 16, 'recent_repeater_0_recent_header', 'Lorem ipsum dolor sit amet consectetur adipisicing.'),
+(2232, 16, '_recent_repeater_0_recent_header', 'field_64c1c884f74ae'),
+(2233, 16, 'recent_repeater_1_recent_img', '80'),
+(2234, 16, '_recent_repeater_1_recent_img', 'field_64c1c872f74ad'),
+(2235, 16, 'recent_repeater_1_recent_header', 'Lorem ipsum dolor sit amet consectetur adipisicing.'),
+(2236, 16, '_recent_repeater_1_recent_header', 'field_64c1c884f74ae'),
+(2237, 16, 'recent_repeater_2_recent_img', '81'),
+(2238, 16, '_recent_repeater_2_recent_img', 'field_64c1c872f74ad'),
+(2239, 16, 'recent_repeater_2_recent_header', 'Lorem ipsum dolor sit amet consectetur adipisicing.'),
+(2240, 16, '_recent_repeater_2_recent_header', 'field_64c1c884f74ae'),
+(2241, 16, 'recent_repeater', '3'),
+(2242, 16, '_recent_repeater', 'field_64c1c827f74ac'),
+(2243, 16, 'tags_title', 'TAGS'),
+(2244, 16, '_tags_title', 'field_64c1c8aff74af'),
+(2245, 197, 'updates_title', 'Latest Trends'),
+(2246, 197, '_updates_title', 'field_64c0936788f03'),
+(2247, 197, 'updates_text', 'Lorem ipsum dolor sit amet consectetur adipisicing'),
+(2248, 197, '_updates_text', 'field_64c0937d88f04'),
+(2249, 197, 'updates_left_repeater_0_left_item_img', '77'),
+(2250, 197, '_updates_left_repeater_0_left_item_img', 'field_64c094416ed5a'),
+(2251, 197, 'updates_left_repeater_0_left_item_label_repeater_0_label_repeater_icon', '<i class=\"fa-solid fa-user\"></i>'),
+(2252, 197, '_updates_left_repeater_0_left_item_label_repeater_0_label_repeater_icon', 'field_64c094776ed5c'),
+(2253, 197, 'updates_left_repeater_0_left_item_label_repeater_0_label_repeater_name', 'Roy Balaaldia'),
+(2254, 197, '_updates_left_repeater_0_left_item_label_repeater_0_label_repeater_name', 'field_64c0949e6ed5d'),
+(2255, 197, 'updates_left_repeater_0_left_item_label_repeater_1_label_repeater_icon', '<i class=\"fa-solid fa-calendar-days\">'),
+(2256, 197, '_updates_left_repeater_0_left_item_label_repeater_1_label_repeater_icon', 'field_64c094776ed5c'),
+(2257, 197, 'updates_left_repeater_0_left_item_label_repeater_1_label_repeater_name', 'March 21, 2022'),
+(2258, 197, '_updates_left_repeater_0_left_item_label_repeater_1_label_repeater_name', 'field_64c0949e6ed5d'),
+(2259, 197, 'updates_left_repeater_0_left_item_label_repeater_2_label_repeater_icon', '<i class=\"fa-solid fa-tags\"></i>'),
+(2260, 197, '_updates_left_repeater_0_left_item_label_repeater_2_label_repeater_icon', 'field_64c094776ed5c'),
+(2261, 197, 'updates_left_repeater_0_left_item_label_repeater_2_label_repeater_name', 'Web Design | Wire Frame'),
+(2262, 197, '_updates_left_repeater_0_left_item_label_repeater_2_label_repeater_name', 'field_64c0949e6ed5d'),
+(2263, 197, 'updates_left_repeater_0_left_item_label_repeater', '3'),
+(2264, 197, '_updates_left_repeater_0_left_item_label_repeater', 'field_64c094536ed5b'),
+(2265, 197, 'updates_left_repeater_0_left_item_header', 'Designing Concept'),
+(2266, 197, '_updates_left_repeater_0_left_item_header', 'field_64c094dc6ed5e'),
+(2267, 197, 'updates_left_repeater_0_left_item_text', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.                                  Ad itaque doloribus aspernatur deserunt quisquam? Saepe                                  laborum dolores odit provident vero, modi corrupti deserunt,                                  cumque unde sit libero vel ipsum ipsam?'),
+(2268, 197, '_updates_left_repeater_0_left_item_text', 'field_64c095066ed5f'),
+(2269, 197, 'updates_left_repeater_1_left_item_img', '78'),
+(2270, 197, '_updates_left_repeater_1_left_item_img', 'field_64c094416ed5a'),
+(2271, 197, 'updates_left_repeater_1_left_item_label_repeater_0_label_repeater_icon', '<i class=\"fa-solid fa-user\"></i>'),
+(2272, 197, '_updates_left_repeater_1_left_item_label_repeater_0_label_repeater_icon', 'field_64c094776ed5c'),
+(2273, 197, 'updates_left_repeater_1_left_item_label_repeater_0_label_repeater_name', 'Roy Balaaldia'),
+(2274, 197, '_updates_left_repeater_1_left_item_label_repeater_0_label_repeater_name', 'field_64c0949e6ed5d'),
+(2275, 197, 'updates_left_repeater_1_left_item_label_repeater_1_label_repeater_icon', '<i class=\"fa-solid fa-calendar-days\">'),
+(2276, 197, '_updates_left_repeater_1_left_item_label_repeater_1_label_repeater_icon', 'field_64c094776ed5c'),
+(2277, 197, 'updates_left_repeater_1_left_item_label_repeater_1_label_repeater_name', 'March 21, 2022'),
+(2278, 197, '_updates_left_repeater_1_left_item_label_repeater_1_label_repeater_name', 'field_64c0949e6ed5d'),
+(2279, 197, 'updates_left_repeater_1_left_item_label_repeater_2_label_repeater_icon', '<i class=\"fa-solid fa-tags\"></i>'),
+(2280, 197, '_updates_left_repeater_1_left_item_label_repeater_2_label_repeater_icon', 'field_64c094776ed5c'),
+(2281, 197, 'updates_left_repeater_1_left_item_label_repeater_2_label_repeater_name', 'Web Design | Wire Frame'),
+(2282, 197, '_updates_left_repeater_1_left_item_label_repeater_2_label_repeater_name', 'field_64c0949e6ed5d'),
+(2283, 197, 'updates_left_repeater_1_left_item_label_repeater', '3'),
+(2284, 197, '_updates_left_repeater_1_left_item_label_repeater', 'field_64c094536ed5b'),
+(2285, 197, 'updates_left_repeater_1_left_item_header', 'Designing Concept'),
+(2286, 197, '_updates_left_repeater_1_left_item_header', 'field_64c094dc6ed5e'),
+(2287, 197, 'updates_left_repeater_1_left_item_text', 'Lorem ipsum dolor sit amet consectetur, adipisicing elit.                                  Ad itaque doloribus aspernatur deserunt quisquam? Saepe                                  laborum dolores odit provident vero, modi corrupti deserunt,                                  cumque unde sit libero vel ipsum ipsam?'),
+(2288, 197, '_updates_left_repeater_1_left_item_text', 'field_64c095066ed5f'),
+(2289, 197, 'updates_left_repeater', '2'),
+(2290, 197, '_updates_left_repeater', 'field_64c0940c6ed59'),
+(2291, 197, 'category_title', 'CATEGORIES'),
+(2292, 197, '_category_title', 'field_64c1c79ff74a7'),
+(2293, 197, 'category_repeater_0_category_name', ' Web Design'),
+(2294, 197, '_category_repeater_0_category_name', 'field_64c1c7e1f74a9'),
+(2295, 197, 'category_repeater_0_category_num', '(2)'),
+(2296, 197, '_category_repeater_0_category_num', 'field_64c1c7fdf74aa'),
+(2297, 197, 'category_repeater_1_category_name', 'Web Development'),
+(2298, 197, '_category_repeater_1_category_name', 'field_64c1c7e1f74a9'),
+(2299, 197, 'category_repeater_1_category_num', '(5)'),
+(2300, 197, '_category_repeater_1_category_num', 'field_64c1c7fdf74aa'),
+(2301, 197, 'category_repeater_2_category_name', 'Wire Frame'),
+(2302, 197, '_category_repeater_2_category_name', 'field_64c1c7e1f74a9'),
+(2303, 197, 'category_repeater_2_category_num', '(1)'),
+(2304, 197, '_category_repeater_2_category_num', 'field_64c1c7fdf74aa'),
+(2305, 197, 'category_repeater_3_category_name', 'Vector & Logo'),
+(2306, 197, '_category_repeater_3_category_name', 'field_64c1c7e1f74a9'),
+(2307, 197, 'category_repeater_3_category_num', '(5)'),
+(2308, 197, '_category_repeater_3_category_num', 'field_64c1c7fdf74aa'),
+(2309, 197, 'category_repeater_4_category_name', 'Social Media'),
+(2310, 197, '_category_repeater_4_category_name', 'field_64c1c7e1f74a9'),
+(2311, 197, 'category_repeater_4_category_num', '(2)'),
+(2312, 197, '_category_repeater_4_category_num', 'field_64c1c7fdf74aa'),
+(2313, 197, 'category_repeater', '5'),
+(2314, 197, '_category_repeater', 'field_64c1c7c2f74a8'),
+(2315, 197, 'recent_title', 'RECENT POST'),
+(2316, 197, '_recent_title', 'field_64c1c811f74ab'),
+(2317, 197, 'recent_repeater_0_recent_img', '79'),
+(2318, 197, '_recent_repeater_0_recent_img', 'field_64c1c872f74ad'),
+(2319, 197, 'recent_repeater_0_recent_header', 'Lorem ipsum dolor sit amet consectetur adipisicing.'),
+(2320, 197, '_recent_repeater_0_recent_header', 'field_64c1c884f74ae'),
+(2321, 197, 'recent_repeater_1_recent_img', '80'),
+(2322, 197, '_recent_repeater_1_recent_img', 'field_64c1c872f74ad'),
+(2323, 197, 'recent_repeater_1_recent_header', 'Lorem ipsum dolor sit amet consectetur adipisicing.'),
+(2324, 197, '_recent_repeater_1_recent_header', 'field_64c1c884f74ae'),
+(2325, 197, 'recent_repeater_2_recent_img', '81'),
+(2326, 197, '_recent_repeater_2_recent_img', 'field_64c1c872f74ad'),
+(2327, 197, 'recent_repeater_2_recent_header', 'Lorem ipsum dolor sit amet consectetur adipisicing.'),
+(2328, 197, '_recent_repeater_2_recent_header', 'field_64c1c884f74ae'),
+(2329, 197, 'recent_repeater', '3'),
+(2330, 197, '_recent_repeater', 'field_64c1c827f74ac'),
+(2331, 197, 'tags_title', 'TAGS'),
+(2332, 197, '_tags_title', 'field_64c1c8aff74af');
 
 -- --------------------------------------------------------
 
@@ -2536,7 +2668,7 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (13, 1, '2023-07-25 09:59:31', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'closed', 'closed', '', '', '', '', '2023-07-25 09:59:31', '0000-00-00 00:00:00', '', 0, 'http://localhost/theCVD/?page_id=13', 0, 'page', '', 0),
 (14, 1, '2023-07-25 09:59:48', '2023-07-25 09:59:48', '', 'Services', '', 'publish', 'closed', 'closed', '', 'services', '', '', '2023-07-26 03:17:45', '2023-07-26 03:17:45', '', 0, 'http://localhost/theCVD/?page_id=14', 2, 'page', '', 0),
 (15, 1, '2023-07-25 09:59:48', '2023-07-25 09:59:48', '', 'Services', '', 'inherit', 'closed', 'closed', '', '14-revision-v1', '', '', '2023-07-25 09:59:48', '2023-07-25 09:59:48', '', 14, 'http://localhost/theCVD/?p=15', 0, 'revision', '', 0),
-(16, 1, '2023-07-25 10:00:12', '2023-07-25 10:00:12', '', 'Updates', '', 'publish', 'closed', 'closed', '', 'updates', '', '', '2023-07-26 03:41:06', '2023-07-26 03:41:06', '', 0, 'http://localhost/theCVD/?page_id=16', 3, 'page', '', 0),
+(16, 1, '2023-07-25 10:00:12', '2023-07-25 10:00:12', '', 'Updates', '', 'publish', 'closed', 'closed', '', 'updates', '', '', '2023-07-27 01:35:15', '2023-07-27 01:35:15', '', 0, 'http://localhost/theCVD/?page_id=16', 3, 'page', '', 0),
 (17, 1, '2023-07-25 10:00:12', '2023-07-25 10:00:12', '', 'Updates', '', 'inherit', 'closed', 'closed', '', '16-revision-v1', '', '', '2023-07-25 10:00:12', '2023-07-25 10:00:12', '', 16, 'http://localhost/theCVD/?p=17', 0, 'revision', '', 0),
 (18, 1, '2023-07-25 10:34:00', '2023-07-25 10:34:00', 'a:8:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:4:\"page\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:1:\"7\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;}', 'Home Banner - Title', 'home-banner-title', 'trash', 'closed', 'closed', '', 'group_64bfa4a86f854__trashed', '', '', '2023-07-25 11:14:23', '2023-07-25 11:14:23', '', 0, 'http://localhost/theCVD/?post_type=acf-field-group&#038;p=18', 6, 'acf-field-group', '', 0),
 (19, 1, '2023-07-25 10:34:00', '2023-07-25 10:34:00', 'a:11:{s:10:\"aria-label\";s:0:\"\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";}', 'Page Title', 'page_title', 'trash', 'closed', 'closed', '', 'field_64bfa4aa064bb__trashed', '', '', '2023-07-25 11:14:23', '2023-07-25 11:14:23', '', 18, 'http://localhost/theCVD/?post_type=acf-field&#038;p=19', 0, 'acf-field', '', 0),
@@ -2706,7 +2838,18 @@ INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post
 (183, 1, '2023-07-26 03:38:13', '2023-07-26 03:38:13', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Left Item Text', 'left_item_text', 'publish', 'closed', 'closed', '', 'field_64c095066ed5f', '', '', '2023-07-26 03:38:13', '2023-07-26 03:38:13', '', 177, 'http://localhost/theCVD/?post_type=acf-field&p=183', 3, 'acf-field', '', 0),
 (184, 1, '2023-07-26 03:41:06', '2023-07-26 03:41:06', '', 'Updates', '', 'inherit', 'closed', 'closed', '', '16-revision-v1', '', '', '2023-07-26 03:41:06', '2023-07-26 03:41:06', '', 16, 'http://localhost/theCVD/?p=184', 0, 'revision', '', 0),
 (185, 1, '2023-07-26 04:09:40', '2023-07-26 04:09:40', '', 'Home', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2023-07-26 04:09:40', '2023-07-26 04:09:40', '', 7, 'http://localhost/theCVD/?p=185', 0, 'revision', '', 0),
-(186, 1, '2023-07-26 04:11:28', '2023-07-26 04:11:28', '', 'Home', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2023-07-26 04:11:28', '2023-07-26 04:11:28', '', 7, 'http://localhost/theCVD/?p=186', 0, 'revision', '', 0);
+(186, 1, '2023-07-26 04:11:28', '2023-07-26 04:11:28', '', 'Home', '', 'inherit', 'closed', 'closed', '', '7-revision-v1', '', '', '2023-07-26 04:11:28', '2023-07-26 04:11:28', '', 7, 'http://localhost/theCVD/?p=186', 0, 'revision', '', 0),
+(187, 1, '2023-07-27 01:30:56', '2023-07-27 01:30:56', 'a:8:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:4:\"page\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:2:\"16\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";s:12:\"show_in_rest\";i:0;}', 'Updates Page Right', 'updates-page-right', 'publish', 'closed', 'closed', '', 'group_64c1c78128fe0', '', '', '2023-07-27 01:30:57', '2023-07-27 01:30:57', '', 0, 'http://localhost/theCVD/?post_type=acf-field-group&#038;p=187', 0, 'acf-field-group', '', 0),
+(188, 1, '2023-07-27 01:30:56', '2023-07-27 01:30:56', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Category Title', 'category_title', 'publish', 'closed', 'closed', '', 'field_64c1c79ff74a7', '', '', '2023-07-27 01:30:56', '2023-07-27 01:30:56', '', 187, 'http://localhost/theCVD/?post_type=acf-field&p=188', 0, 'acf-field', '', 0),
+(189, 1, '2023-07-27 01:30:56', '2023-07-27 01:30:56', 'a:10:{s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:9:\"collapsed\";s:0:\"\";s:3:\"min\";s:0:\"\";s:3:\"max\";s:0:\"\";s:6:\"layout\";s:5:\"table\";s:12:\"button_label\";s:0:\"\";}', 'Category Repeater', 'category_repeater', 'publish', 'closed', 'closed', '', 'field_64c1c7c2f74a8', '', '', '2023-07-27 01:30:56', '2023-07-27 01:30:56', '', 187, 'http://localhost/theCVD/?post_type=acf-field&p=189', 1, 'acf-field', '', 0),
+(190, 1, '2023-07-27 01:30:56', '2023-07-27 01:30:56', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Category Name', 'category_name', 'publish', 'closed', 'closed', '', 'field_64c1c7e1f74a9', '', '', '2023-07-27 01:30:56', '2023-07-27 01:30:56', '', 189, 'http://localhost/theCVD/?post_type=acf-field&p=190', 0, 'acf-field', '', 0),
+(191, 1, '2023-07-27 01:30:56', '2023-07-27 01:30:56', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Category Num', 'category_num', 'publish', 'closed', 'closed', '', 'field_64c1c7fdf74aa', '', '', '2023-07-27 01:30:56', '2023-07-27 01:30:56', '', 189, 'http://localhost/theCVD/?post_type=acf-field&p=191', 1, 'acf-field', '', 0),
+(192, 1, '2023-07-27 01:30:56', '2023-07-27 01:30:56', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Recent Title', 'recent_title', 'publish', 'closed', 'closed', '', 'field_64c1c811f74ab', '', '', '2023-07-27 01:30:56', '2023-07-27 01:30:56', '', 187, 'http://localhost/theCVD/?post_type=acf-field&p=192', 2, 'acf-field', '', 0),
+(193, 1, '2023-07-27 01:30:56', '2023-07-27 01:30:56', 'a:10:{s:4:\"type\";s:8:\"repeater\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:9:\"collapsed\";s:0:\"\";s:3:\"min\";s:0:\"\";s:3:\"max\";s:0:\"\";s:6:\"layout\";s:5:\"table\";s:12:\"button_label\";s:0:\"\";}', 'Recent Repeater', 'recent_repeater', 'publish', 'closed', 'closed', '', 'field_64c1c827f74ac', '', '', '2023-07-27 01:30:56', '2023-07-27 01:30:56', '', 187, 'http://localhost/theCVD/?post_type=acf-field&p=193', 3, 'acf-field', '', 0),
+(194, 1, '2023-07-27 01:30:56', '2023-07-27 01:30:56', 'a:15:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"return_format\";s:5:\"array\";s:12:\"preview_size\";s:6:\"medium\";s:7:\"library\";s:3:\"all\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}', 'Recent Img', 'recent_img', 'publish', 'closed', 'closed', '', 'field_64c1c872f74ad', '', '', '2023-07-27 01:30:56', '2023-07-27 01:30:56', '', 193, 'http://localhost/theCVD/?post_type=acf-field&p=194', 0, 'acf-field', '', 0),
+(195, 1, '2023-07-27 01:30:56', '2023-07-27 01:30:56', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Recent Header', 'recent_header', 'publish', 'closed', 'closed', '', 'field_64c1c884f74ae', '', '', '2023-07-27 01:30:56', '2023-07-27 01:30:56', '', 193, 'http://localhost/theCVD/?post_type=acf-field&p=195', 1, 'acf-field', '', 0),
+(196, 1, '2023-07-27 01:30:56', '2023-07-27 01:30:56', 'a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}', 'Tags Title', 'tags_title', 'publish', 'closed', 'closed', '', 'field_64c1c8aff74af', '', '', '2023-07-27 01:30:56', '2023-07-27 01:30:56', '', 187, 'http://localhost/theCVD/?post_type=acf-field&p=196', 4, 'acf-field', '', 0),
+(197, 1, '2023-07-27 01:35:15', '2023-07-27 01:35:15', '', 'Updates', '', 'inherit', 'closed', 'closed', '', '16-revision-v1', '', '', '2023-07-27 01:35:15', '2023-07-27 01:35:15', '', 16, 'http://localhost/theCVD/?p=197', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
@@ -2821,10 +2964,10 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (19, 1, 'wp_user-settings-time', '1690283894'),
 (20, 1, 'closedpostboxes_acf-field-group', 'a:0:{}'),
 (21, 1, 'metaboxhidden_acf-field-group', 'a:1:{i:0;s:7:\"slugdiv\";}'),
-(22, 1, 'meta-box-order_page', 'a:4:{s:15:\"acf_after_title\";s:0:\"\";s:4:\"side\";s:23:\"submitdiv,pageparentdiv\";s:6:\"normal\";s:94:\"acf-group_64c0931576869,acf-group_64c0939c8e8ed,commentstatusdiv,commentsdiv,slugdiv,authordiv\";s:8:\"advanced\";s:0:\"\";}'),
+(22, 1, 'meta-box-order_page', 'a:4:{s:15:\"acf_after_title\";s:0:\"\";s:4:\"side\";s:36:\"submitdiv,pageparentdiv,postimagediv\";s:6:\"normal\";s:131:\"acf-group_64c0931576869,acf-group_64c0939c8e8ed,acf-group_64c1c78128fe0,commentstatusdiv,commentsdiv,slugdiv,authordiv,revisionsdiv\";s:8:\"advanced\";s:0:\"\";}'),
 (23, 1, 'screen_layout_page', '2'),
-(24, 1, 'closedpostboxes_page', 'a:0:{}'),
-(25, 1, 'metaboxhidden_page', 'a:5:{i:0;s:12:\"revisionsdiv\";i:1;s:16:\"commentstatusdiv\";i:2;s:11:\"commentsdiv\";i:3;s:7:\"slugdiv\";i:4;s:9:\"authordiv\";}');
+(24, 1, 'closedpostboxes_page', 'a:1:{i:0;s:23:\"acf-group_64c1c78128fe0\";}'),
+(25, 1, 'metaboxhidden_page', 'a:5:{i:0;s:16:\"commentstatusdiv\";i:1;s:11:\"commentsdiv\";i:2;s:7:\"slugdiv\";i:3;s:9:\"authordiv\";i:4;s:12:\"revisionsdiv\";}');
 
 -- --------------------------------------------------------
 
@@ -2982,19 +3125,19 @@ ALTER TABLE `wp_links`
 -- AUTO_INCREMENT for table `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=237;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=239;
 
 --
 -- AUTO_INCREMENT for table `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2201;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2333;
 
 --
 -- AUTO_INCREMENT for table `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=187;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=198;
 
 --
 -- AUTO_INCREMENT for table `wp_termmeta`

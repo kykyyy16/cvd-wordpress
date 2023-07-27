@@ -12,28 +12,26 @@
             </div>
             <div class="latest_wrapper">
                 <div class="latest_left">
-                    <?php if(have_rows('updates_left_repeater')) : while(have_rows('updates_left_repeater')) : the_row() ?>
+                <?php $args = array(
+                    'post_type'       => 'updatesPost',
+                    'posts_per_page'  => 2,
+                );
+                    $query = new WP_Query($args);
+                ?>
+                <?php if($query->have_posts()) : while($query->have_posts()) : $query->the_post(); ?>
                     <div class="latest_left_item">
-                        <img src="<?php echo get_sub_field('left_item_img')['url'] ?>" alt="">
+                        <?php echo get_the_post_thumbnail() ?>
                         <div class="latest_left_item_label">
                             <ul>
-                            <?php if(have_rows('left_item_label_repeater')) : while(have_rows('left_item_label_repeater')) : the_row() ?>
-                                <li><i class="fa-solid fa-user"></i><?php echo get_sub_field('label_repeater_name') ?></li>
-                                <?php
-                                    endwhile;
-                                else:
-                                    echo 'No Available Content';
-                                endif;
-                                wp_reset_postdata();
-                                ?>
-                                <!-- <li><i class="fa-solid fa-calendar-days"></i>March 21, 2022</li>
-                                <li><i class="fa-solid fa-tags"></i>Web Design | Wire Frame</li> -->
+                                <li><i class="fa-solid fa-user"></i>Roy Balaaldia</li>
+                                <li><i class="fa-solid fa-calendar-days"></i><?php echo get_the_date('M d Y') ?></li>
+                                <li><i class="fa-solid fa-tags"></i>Web Design | Wire Frame</li>
                             </ul>
                         </div>
                         <div class="latest_left_item_text">
-                            <h2><?php echo get_sub_field('left_item_header') ?></h2>
+                            <h2><?php echo the_title() ?></h2>
                             <p>
-                            <?php echo get_sub_field('left_item_text') ?>
+                            <?php echo the_excerpt() ?>
                             </p>
                             <a href="<?php echo get_permalink() ?>">Read more...</a>
                         </div>
@@ -151,12 +149,12 @@
                         <div class="latest_right_tags_wrapper">
                             <div class="latest_right_tags_group">
                                 <ul>
-                                    <li><a href="<?php echo get_permalink() ?>" class="btn bg--light">WEB DESIGN</a></li>
-                                    <li><a href="<?php echo get_permalink() ?>" class="btn bg--light">WIRE FRAME</a></li>
-                                    <li><a href="<?php echo get_permalink() ?>" class="active btn bg--light">WEB DEVELOPMENT</a></li>
-                                    <li><a href="<?php echo get_permalink() ?>" class="btn bg--light">LOGO</a></li>
-                                    <li><a href="<?php echo get_permalink() ?>" class="btn bg--light">VECTOR</a></li>
-                                    <li><a href="<?php echo get_permalink() ?>" class="btn bg--light">SOCIAL MEDIA</a></li>
+                                    <li><a href="" class="btn bg--light">WEB DESIGN</a></li>
+                                    <li><a href="" class="btn bg--light">WIRE FRAME</a></li>
+                                    <li><a href="" class="active btn bg--light">WEB DEVELOPMENT</a></li>
+                                    <li><a href="" class="btn bg--light">LOGO</a></li>
+                                    <li><a href="" class="btn bg--light">VECTOR</a></li>
+                                    <li><a href="" class="btn bg--light">SOCIAL MEDIA</a></li>
                                 </ul>
                             </div>
                         </div>

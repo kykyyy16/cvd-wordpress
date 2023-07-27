@@ -107,23 +107,29 @@
                 <p><?php echo get_field('home_updates_p') ?></p>
             </div>
             <div class="updates-banner_wrapper">
-            <?php if(have_rows('home_updates_repeater')) : while(have_rows('home_updates_repeater')) : the_row() ?>
+            <?php $args = array(
+                'post_type'       => 'latestPost',
+                'posts_per_page'  => 3,
+            );
+                $query = new WP_Query($args);
+            ?>
+            <?php if($query->have_posts()) : while($query->have_posts()) : $query->the_post(); ?>
                 <div class="updates-banner_item">
-                    <img src="<?php echo get_sub_field('home_updates_item_img')['url'] ?>" alt="">
+                    <?php echo get_the_post_thumbnail() ?>
                     <div class="updates-banner_text">
-                        <h4><?php echo get_sub_field('home_updates_item_title') ?></h4>
+                        <h4><?php echo the_title() ?></h4>
                         <p>
-                            <?php echo get_sub_field('home_updates_item_text') ?>
+                            <?php echo the_excerpt() ?>
                         </p>
                         <a href="<?php echo get_permalink() ?>">Read More</a>
                     </div>
                 </div>
-                <?php
+                <?php 
                   endwhile;
-                else:
-                  echo 'No Available Content';
-                endif;
-                wp_reset_postdata();
+                  else: 
+                    echo 'No Available content';
+                  endif;
+                    wp_reset_postdata();
                 ?>
             </div>
         </div>

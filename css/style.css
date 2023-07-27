@@ -671,8 +671,8 @@ transition: 0.5s ease;
 }
 .updates-banner .updates-banner_item .updates-banner_text p{
   text-align: justify;
-  line-height: 2;
-  margin-bottom: 2rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
 }
 .updates-banner .updates-banner_item .updates-banner_text a{
   margin-bottom: 1.5rem;
